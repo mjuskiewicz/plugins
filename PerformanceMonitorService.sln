@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceMonitorService.Host", "PerformanceMonitorService.Host\PerformanceMonitorService.Host.csproj", "{412BB680-50A4-44C3-A39C-BF3A30BE188B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceMonitorService.Service", "PerformanceMonitorService.Service\PerformanceMonitorService.Service.csproj", "{78001B9D-0289-4309-BB6A-F2179737F4AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{83CB5093-5AEA-4802-9107-BF29742BA30C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceMonitorService.Plugins.RamMonitorPlugin", "PerformanceMonitorService.Plugins.RamMonitorPlugin\PerformanceMonitorService.Plugins.RamMonitorPlugin.csproj", "{C2C6479D-9348-4E8E-806B-C0379BDF34FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceMonitorService.PluginInfrastructure", "PerformanceMonitorService.PluginInfrastructure\PerformanceMonitorService.PluginInfrastructure.csproj", "{233FB130-899F-4505-85EE-2FF2DFFF7F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMonitorService.Plugins.CpuMonitorPlugin", "PerformanceMonitorService.Plugins.CpuMonitorPlugin\PerformanceMonitorService.Plugins.CpuMonitorPlugin.csproj", "{20AF4514-99FD-4E5E-877E-30A9CD555E3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{412BB680-50A4-44C3-A39C-BF3A30BE188B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412BB680-50A4-44C3-A39C-BF3A30BE188B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412BB680-50A4-44C3-A39C-BF3A30BE188B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412BB680-50A4-44C3-A39C-BF3A30BE188B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78001B9D-0289-4309-BB6A-F2179737F4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78001B9D-0289-4309-BB6A-F2179737F4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78001B9D-0289-4309-BB6A-F2179737F4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78001B9D-0289-4309-BB6A-F2179737F4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C6479D-9348-4E8E-806B-C0379BDF34FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C6479D-9348-4E8E-806B-C0379BDF34FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C6479D-9348-4E8E-806B-C0379BDF34FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C6479D-9348-4E8E-806B-C0379BDF34FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233FB130-899F-4505-85EE-2FF2DFFF7F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233FB130-899F-4505-85EE-2FF2DFFF7F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233FB130-899F-4505-85EE-2FF2DFFF7F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233FB130-899F-4505-85EE-2FF2DFFF7F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AF4514-99FD-4E5E-877E-30A9CD555E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AF4514-99FD-4E5E-877E-30A9CD555E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AF4514-99FD-4E5E-877E-30A9CD555E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AF4514-99FD-4E5E-877E-30A9CD555E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2C6479D-9348-4E8E-806B-C0379BDF34FF} = {83CB5093-5AEA-4802-9107-BF29742BA30C}
+		{20AF4514-99FD-4E5E-877E-30A9CD555E3B} = {83CB5093-5AEA-4802-9107-BF29742BA30C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA9BE862-02A4-4892-95B8-EF884E5B227C}
+	EndGlobalSection
+EndGlobal
